@@ -1,0 +1,421 @@
+{
+  "eventCategories": {
+    "entertainment": {
+      "displayName": "Entertainment",
+      "color": "#FF6B6B",
+      "icon": "music.note",
+      "description": "Live music, performances, and entertainment events"
+    },
+    "food": {
+      "displayName": "Food & Dining",
+      "color": "#4ECDC4",
+      "icon": "fork.knife",
+      "description": "Food trucks, dining events, and culinary experiences"
+    },
+    "market": {
+      "displayName": "Markets",
+      "color": "#95E1D3",
+      "icon": "cart",
+      "description": "Farmers markets, craft fairs, and vendor events"
+    },
+    "family": {
+      "displayName": "Family",
+      "color": "#FFE66D",
+      "icon": "person.3",
+      "description": "Family-friendly activities and events"
+    },
+    "community": {
+      "displayName": "Community",
+      "color": "#A8E6CF",
+      "icon": "house.circle",
+      "description": "Community gatherings and social events"
+    },
+    "holiday": {
+      "displayName": "Holiday",
+      "color": "#FF8B94",
+      "icon": "gift",
+      "description": "Holiday celebrations and seasonal events"
+    },
+    "fitness": {
+      "displayName": "Fitness & Wellness",
+      "color": "#C7CEEA",
+      "icon": "figure.run",
+      "description": "Fitness activities, sports, and wellness events"
+    }
+  },
+  "imageTemplates": {
+    "karaoke": {
+      "template": "karaoke-night",
+      "cloudinaryId": "sterling-ranch/events/karaoke",
+      "fallbackColor": "#FF6B6B"
+    },
+    "trivia": {
+      "template": "trivia-night",
+      "cloudinaryId": "sterling-ranch/events/trivia",
+      "fallbackColor": "#4ECDC4"
+    },
+    "comedy": {
+      "template": "comedy-night",
+      "cloudinaryId": "sterling-ranch/events/comedy",
+      "fallbackColor": "#FFE66D"
+    },
+    "food-truck": {
+      "template": "food-truck-event",
+      "cloudinaryId": "sterling-ranch/events/food-truck",
+      "fallbackColor": "#95E1D3"
+    },
+    "market": {
+      "template": "farmers-market",
+      "cloudinaryId": "sterling-ranch/events/market",
+      "fallbackColor": "#A8E6CF"
+    },
+    "movie-night": {
+      "template": "movie-night",
+      "cloudinaryId": "sterling-ranch/events/movie",
+      "fallbackColor": "#C7CEEA"
+    },
+    "pool-party": {
+      "template": "pool-party",
+      "cloudinaryId": "sterling-ranch/events/pool",
+      "fallbackColor": "#4ECDC4"
+    },
+    "pickleball": {
+      "template": "pickleball",
+      "cloudinaryId": "sterling-ranch/events/pickleball",
+      "fallbackColor": "#FFE66D"
+    },
+    "yoga": {
+      "template": "yoga",
+      "cloudinaryId": "sterling-ranch/events/yoga",
+      "fallbackColor": "#C7CEEA"
+    },
+    "halloween": {
+      "template": "halloween",
+      "cloudinaryId": "sterling-ranch/events/halloween",
+      "fallbackColor": "#FF8B94"
+    },
+    "holiday-lights": {
+      "template": "holiday-lights",
+      "cloudinaryId": "sterling-ranch/events/holiday",
+      "fallbackColor": "#FF6B6B"
+    },
+    "5k-run": {
+      "template": "5k-run",
+      "cloudinaryId": "sterling-ranch/events/5k",
+      "fallbackColor": "#95E1D3"
+    }
+  },
+  "tagDefinitions": {
+    "music": {
+      "displayName": "Music",
+      "icon": "music.note",
+      "category": "interest"
+    },
+    "nightlife": {
+      "displayName": "Nightlife",
+      "icon": "moon.stars",
+      "category": "interest"
+    },
+    "adults": {
+      "displayName": "Adults Only",
+      "icon": "person.2",
+      "category": "audience"
+    },
+    "social": {
+      "displayName": "Social",
+      "icon": "bubble.left.and.bubble.right",
+      "category": "interest"
+    },
+    "trivia": {
+      "displayName": "Trivia",
+      "icon": "brain",
+      "category": "interest"
+    },
+    "competition": {
+      "displayName": "Competition",
+      "icon": "trophy",
+      "category": "interest"
+    },
+    "comedy": {
+      "displayName": "Comedy",
+      "icon": "theatermasks",
+      "category": "interest"
+    },
+    "entertainment": {
+      "displayName": "Entertainment",
+      "icon": "star",
+      "category": "interest"
+    },
+    "food": {
+      "displayName": "Food",
+      "icon": "fork.knife",
+      "category": "interest"
+    },
+    "family-friendly": {
+      "displayName": "Family Friendly",
+      "icon": "person.3",
+      "category": "audience"
+    },
+    "outdoor": {
+      "displayName": "Outdoor",
+      "icon": "sun.max",
+      "category": "location"
+    },
+    "food-truck": {
+      "displayName": "Food Truck",
+      "icon": "truck.box",
+      "category": "interest"
+    },
+    "market": {
+      "displayName": "Market",
+      "icon": "cart",
+      "category": "interest"
+    },
+    "local": {
+      "displayName": "Local",
+      "icon": "location",
+      "category": "special"
+    },
+    "movie": {
+      "displayName": "Movie",
+      "icon": "film",
+      "category": "interest"
+    },
+    "free": {
+      "displayName": "Free",
+      "icon": "dollarsign.circle",
+      "category": "special"
+    },
+    "pool": {
+      "displayName": "Pool",
+      "icon": "figure.pool.swim",
+      "category": "interest"
+    },
+    "bbq": {
+      "displayName": "BBQ",
+      "icon": "flame",
+      "category": "interest"
+    },
+    "summer": {
+      "displayName": "Summer",
+      "icon": "sun.max.fill",
+      "category": "season"
+    },
+    "residents": {
+      "displayName": "Residents Only",
+      "icon": "key",
+      "category": "audience"
+    },
+    "pickleball": {
+      "displayName": "Pickleball",
+      "icon": "figure.table.tennis",
+      "category": "interest"
+    },
+    "sports": {
+      "displayName": "Sports",
+      "icon": "sportscourt",
+      "category": "interest"
+    },
+    "fitness": {
+      "displayName": "Fitness",
+      "icon": "figure.run",
+      "category": "interest"
+    },
+    "yoga": {
+      "displayName": "Yoga",
+      "icon": "figure.yoga",
+      "category": "interest"
+    },
+    "wellness": {
+      "displayName": "Wellness",
+      "icon": "heart",
+      "category": "interest"
+    },
+    "halloween": {
+      "displayName": "Halloween",
+      "icon": "moon.stars",
+      "category": "holiday"
+    },
+    "holiday": {
+      "displayName": "Holiday",
+      "icon": "gift",
+      "category": "holiday"
+    },
+    "costume": {
+      "displayName": "Costume",
+      "icon": "person.crop.circle.badge.questionmark",
+      "category": "special"
+    },
+    "christmas": {
+      "displayName": "Christmas",
+      "icon": "snowflake",
+      "category": "holiday"
+    },
+    "contest": {
+      "displayName": "Contest",
+      "icon": "trophy",
+      "category": "special"
+    },
+    "community": {
+      "displayName": "Community",
+      "icon": "house.circle",
+      "category": "interest"
+    },
+    "running": {
+      "displayName": "Running",
+      "icon": "figure.run",
+      "category": "interest"
+    }
+  },
+  "priceRanges": {
+    "$": {
+      "displayName": "Budget Friendly",
+      "description": "Under $10 per person",
+      "minPrice": 0,
+      "maxPrice": 10
+    },
+    "$$": {
+      "displayName": "Moderate",
+      "description": "$10-20 per person",
+      "minPrice": 10,
+      "maxPrice": 20
+    },
+    "$$$": {
+      "displayName": "Premium",
+      "description": "$20+ per person",
+      "minPrice": 20,
+      "maxPrice": null
+    }
+  },
+  "dietaryOptions": {
+    "vegetarian": {
+      "displayName": "Vegetarian",
+      "icon": "leaf",
+      "description": "No meat products"
+    },
+    "vegetarian-options": {
+      "displayName": "Vegetarian Options",
+      "icon": "leaf",
+      "description": "Some vegetarian options available"
+    },
+    "vegan": {
+      "displayName": "Vegan",
+      "icon": "leaf.fill",
+      "description": "No animal products"
+    },
+    "vegan-options": {
+      "displayName": "Vegan Options",
+      "icon": "leaf.fill",
+      "description": "Some vegan options available"
+    },
+    "gluten-free": {
+      "displayName": "Gluten Free",
+      "icon": "checkmark.shield",
+      "description": "No gluten ingredients"
+    },
+    "gluten-free-options": {
+      "displayName": "Gluten Free Options",
+      "icon": "checkmark.shield",
+      "description": "Some gluten-free options available"
+    },
+    "gluten-free-crust": {
+      "displayName": "Gluten Free Crust",
+      "icon": "checkmark.shield",
+      "description": "Gluten-free crust available"
+    },
+    "organic": {
+      "displayName": "Organic",
+      "icon": "sparkles",
+      "description": "Organic ingredients"
+    }
+  },
+  "amenities": [
+    {
+      "id": "pool",
+      "name": "Community Pool",
+      "description": "Olympic-sized heated pool with lap lanes and recreation area. Seasonal hours May-September.",
+      "category": "Recreation",
+      "location": "Sterling Ranch Recreation Center",
+      "hours": {
+        "summer": {
+          "monday": "06:00-21:00",
+          "tuesday": "06:00-21:00",
+          "wednesday": "06:00-21:00",
+          "thursday": "06:00-21:00",
+          "friday": "06:00-21:00",
+          "saturday": "09:00-20:00",
+          "sunday": "09:00-20:00"
+        },
+        "winter": "Closed"
+      },
+      "features": ["lap-lanes", "recreation-area", "heated", "lifeguard"],
+      "access": "residents-only"
+    },
+    {
+      "id": "gym",
+      "name": "Community Fitness Center",
+      "description": "State-of-the-art fitness center with cardio equipment, weights, and group fitness classes.",
+      "category": "Fitness",
+      "location": "Sterling Ranch Recreation Center",
+      "hours": {
+        "monday": "05:00-22:00",
+        "tuesday": "05:00-22:00",
+        "wednesday": "05:00-22:00",
+        "thursday": "05:00-22:00",
+        "friday": "05:00-21:00",
+        "saturday": "07:00-20:00",
+        "sunday": "07:00-20:00"
+      },
+      "features": ["cardio-equipment", "weights", "group-classes", "locker-rooms"],
+      "access": "residents-only"
+    },
+    {
+      "id": "pickleball",
+      "name": "Pickleball Courts",
+      "description": "Four dedicated pickleball courts with LED lighting for evening play.",
+      "category": "Sports",
+      "location": "Sterling Ranch Community Park",
+      "hours": {
+        "daily": "06:00-22:00"
+      },
+      "features": ["led-lighting", "4-courts", "equipment-rental"],
+      "access": "public"
+    },
+    {
+      "id": "trails",
+      "name": "Trail System",
+      "description": "15 miles of paved and natural trails connecting the community. Perfect for walking, running, and biking.",
+      "category": "Recreation",
+      "location": "Throughout Sterling Ranch",
+      "hours": {
+        "daily": "Dawn to Dusk"
+      },
+      "features": ["paved-trails", "natural-trails", "15-miles", "bike-friendly"],
+      "access": "public"
+    },
+    {
+      "id": "dog-park",
+      "name": "Dog Park",
+      "description": "Fenced off-leash dog park with separate areas for small and large dogs.",
+      "category": "Pet Amenities",
+      "location": "Sterling Ranch Community Park",
+      "hours": {
+        "daily": "06:00-21:00"
+      },
+      "features": ["fenced", "small-dog-area", "large-dog-area", "water-stations"],
+      "access": "public"
+    },
+    {
+      "id": "playground",
+      "name": "Community Playground",
+      "description": "Modern playground with equipment for all ages, including swings, slides, and climbing structures.",
+      "category": "Recreation",
+      "location": "Sterling Ranch Community Park",
+      "hours": {
+        "daily": "Dawn to Dusk"
+      },
+      "features": ["age-appropriate-equipment", "shade-structures", "picnic-tables"],
+      "access": "public"
+    }
+  ]
+}
