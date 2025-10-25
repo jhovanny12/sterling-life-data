@@ -119,6 +119,8 @@ Sterling Life uses Cloudinary for image hosting and transformation. Here's how t
 2. Get your Cloud Name, API Key, and API Secret
 3. Upload images to appropriate folders
 
+**⚠️ Security Warning:** Never commit your Cloudinary API Secret to version control. Use environment variables or secure credential storage. Add `.env` files containing credentials to your `.gitignore`.
+
 ### Folder Structure in Cloudinary
 
 ```

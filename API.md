@@ -408,11 +408,11 @@ func fetchData<T: Decodable>(from urlString: String, completion: @escaping (Resu
 
 ## Rate Limiting
 
-GitHub Pages does not have explicit rate limits, but follow these best practices:
+GitHub Pages does not have explicit rate limits, but follow these best practices to be a good API citizen:
 
 - **Recommended**: Cache data locally for at least 5-10 minutes
-- **Maximum frequency**: No more than 1 request per second per endpoint
-- **Avoid**: Polling for real-time updates (data is static)
+- **Best practice**: Limit requests to no more than 1 request per second per endpoint (self-imposed)
+- **Avoid**: Polling for real-time updates (data is static and updated infrequently)
 
 ### Caching Strategy
 
