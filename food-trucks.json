@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "name": "The Burger Bus",
+    "cuisine": "American",
+    "description": "Gourmet burgers and hand-cut fries made with locally sourced ingredients.",
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "11:00-14:00",
+        "location": "Sterling Ranch Town Center"
+      },
+      {
+        "day": "Friday",
+        "time": "17:00-20:00",
+        "location": "Sterling Ranch Community Park"
+      }
+    ],
+    "menu": [
+      {
+        "item": "Classic Burger",
+        "price": 9.99
+      },
+      {
+        "item": "BBQ Bacon Burger",
+        "price": 11.99
+      },
+      {
+        "item": "Veggie Burger",
+        "price": 9.99
+      },
+      {
+        "item": "Hand-Cut Fries",
+        "price": 4.99
+      }
+    ],
+    "contact": {
+      "phone": "303-555-0101",
+      "email": "info@burgerbus.com",
+      "website": "https://burgerbus.com"
+    },
+    "image": "images/food-trucks/burger-bus.jpg",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Taco Express",
+    "cuisine": "Mexican",
+    "description": "Authentic Mexican street tacos with fresh ingredients and homemade salsas.",
+    "schedule": [
+      {
+        "day": "Wednesday",
+        "time": "11:00-14:00",
+        "location": "Sterling Ranch Town Center"
+      },
+      {
+        "day": "Saturday",
+        "time": "12:00-16:00",
+        "location": "Sterling Ranch Community Park"
+      }
+    ],
+    "menu": [
+      {
+        "item": "Carne Asada Taco",
+        "price": 3.99
+      },
+      {
+        "item": "Al Pastor Taco",
+        "price": 3.99
+      },
+      {
+        "item": "Fish Taco",
+        "price": 4.49
+      },
+      {
+        "item": "Quesadilla",
+        "price": 7.99
+      }
+    ],
+    "contact": {
+      "phone": "303-555-0102",
+      "email": "contact@tacoexpress.com",
+      "website": "https://tacoexpress.com"
+    },
+    "image": "images/food-trucks/taco-express.jpg",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Sweet Treats Dessert Truck",
+    "cuisine": "Desserts",
+    "description": "Artisan ice cream, gourmet cupcakes, and specialty desserts.",
+    "schedule": [
+      {
+        "day": "Thursday",
+        "time": "15:00-19:00",
+        "location": "Sterling Ranch Town Center"
+      },
+      {
+        "day": "Sunday",
+        "time": "13:00-17:00",
+        "location": "Sterling Ranch Community Park"
+      }
+    ],
+    "menu": [
+      {
+        "item": "Artisan Ice Cream",
+        "price": 5.99
+      },
+      {
+        "item": "Gourmet Cupcake",
+        "price": 4.99
+      },
+      {
+        "item": "Chocolate Brownie",
+        "price": 3.99
+      },
+      {
+        "item": "Specialty Sundae",
+        "price": 8.99
+      }
+    ],
+    "contact": {
+      "phone": "303-555-0103",
+      "email": "hello@sweettreatstruck.com",
+      "website": "https://sweettreatstruck.com"
+    },
+    "image": "images/food-trucks/sweet-treats.jpg",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Pizza on Wheels",
+    "cuisine": "Italian",
+    "description": "Wood-fired pizzas made to order with fresh mozzarella and premium toppings.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "time": "17:00-20:00",
+        "location": "Sterling Ranch Town Center"
+      },
+      {
+        "day": "Saturday",
+        "time": "17:00-21:00",
+        "location": "Sterling Ranch Community Park"
+      }
+    ],
+    "menu": [
+      {
+        "item": "Margherita Pizza",
+        "price": 12.99
+      },
+      {
+        "item": "Pepperoni Pizza",
+        "price": 13.99
+      },
+      {
+        "item": "Vegetarian Pizza",
+        "price": 13.99
+      },
+      {
+        "item": "Caesar Salad",
+        "price": 6.99
+      }
+    ],
+    "contact": {
+      "phone": "303-555-0104",
+      "email": "orders@pizzaonwheels.com",
+      "website": "https://pizzaonwheels.com"
+    },
+    "image": "images/food-trucks/pizza-wheels.jpg",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Asian Fusion Express",
+    "cuisine": "Asian Fusion",
+    "description": "Modern takes on Asian classics, from poke bowls to Thai curry.",
+    "schedule": [
+      {
+        "day": "Thursday",
+        "time": "11:00-14:00",
+        "location": "Sterling Ranch Town Center"
+      },
+      {
+        "day": "Friday",
+        "time": "11:00-14:00",
+        "location": "Sterling Ranch Community Park"
+      }
+    ],
+    "menu": [
+      {
+        "item": "Poke Bowl",
+        "price": 11.99
+      },
+      {
+        "item": "Pad Thai",
+        "price": 10.99
+      },
+      {
+        "item": "Thai Curry",
+        "price": 11.99
+      },
+      {
+        "item": "Spring Rolls",
+        "price": 5.99
+      }
+    ],
+    "contact": {
+      "phone": "303-555-0105",
+      "email": "info@asianfusionexpress.com",
+      "website": "https://asianfusionexpress.com"
+    },
+    "image": "images/food-trucks/asian-fusion.jpg",
+    "rating": 4.9
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Sterling Ranch Coffee House",
+    "category": "Food & Beverage",
+    "description": "Local coffee shop serving artisan coffee, pastries, and light lunch options.",
+    "address": "1234 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0201",
+    "email": "info@sterlingcoffee.com",
+    "website": "https://sterlingcoffee.com",
+    "hours": {
+      "monday": "06:00-18:00",
+      "tuesday": "06:00-18:00",
+      "wednesday": "06:00-18:00",
+      "thursday": "06:00-18:00",
+      "friday": "06:00-20:00",
+      "saturday": "07:00-20:00",
+      "sunday": "07:00-17:00"
+    },
+    "image": "images/businesses/coffee-house.jpg",
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Sterling Dental Care",
+    "category": "Healthcare",
+    "description": "Family dentistry providing comprehensive dental care for all ages.",
+    "address": "1245 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0202",
+    "email": "appointments@sterlingdental.com",
+    "website": "https://sterlingdental.com",
+    "hours": {
+      "monday": "08:00-17:00",
+      "tuesday": "08:00-17:00",
+      "wednesday": "08:00-17:00",
+      "thursday": "08:00-17:00",
+      "friday": "08:00-15:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "image": "images/businesses/dental-care.jpg",
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "The Ranch Gym & Fitness",
+    "category": "Fitness",
+    "description": "Full-service fitness center with cardio equipment, weights, and group classes.",
+    "address": "1256 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0203",
+    "email": "info@ranchgym.com",
+    "website": "https://ranchgym.com",
+    "hours": {
+      "monday": "05:00-22:00",
+      "tuesday": "05:00-22:00",
+      "wednesday": "05:00-22:00",
+      "thursday": "05:00-22:00",
+      "friday": "05:00-21:00",
+      "saturday": "07:00-20:00",
+      "sunday": "07:00-20:00"
+    },
+    "image": "images/businesses/ranch-gym.jpg",
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Sterling Hair Salon",
+    "category": "Beauty",
+    "description": "Professional hair styling, coloring, and treatments for the whole family.",
+    "address": "1267 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0204",
+    "email": "bookings@sterlinghair.com",
+    "website": "https://sterlinghair.com",
+    "hours": {
+      "monday": "09:00-18:00",
+      "tuesday": "09:00-18:00",
+      "wednesday": "09:00-18:00",
+      "thursday": "09:00-20:00",
+      "friday": "09:00-20:00",
+      "saturday": "09:00-17:00",
+      "sunday": "Closed"
+    },
+    "image": "images/businesses/hair-salon.jpg",
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Ranch Pet Clinic",
+    "category": "Pet Services",
+    "description": "Veterinary clinic providing comprehensive care for your furry family members.",
+    "address": "1278 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0205",
+    "email": "appointments@ranchpetclinic.com",
+    "website": "https://ranchpetclinic.com",
+    "hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "image": "images/businesses/pet-clinic.jpg",
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Sterling Ranch Market",
+    "category": "Grocery",
+    "description": "Neighborhood grocery store with fresh produce, meats, and daily essentials.",
+    "address": "1289 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0206",
+    "email": "info@sterlingmarket.com",
+    "website": "https://sterlingmarket.com",
+    "hours": {
+      "monday": "07:00-21:00",
+      "tuesday": "07:00-21:00",
+      "wednesday": "07:00-21:00",
+      "thursday": "07:00-21:00",
+      "friday": "07:00-21:00",
+      "saturday": "07:00-21:00",
+      "sunday": "08:00-20:00"
+    },
+    "image": "images/businesses/ranch-market.jpg",
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Kids Learning Academy",
+    "category": "Education",
+    "description": "Preschool and daycare providing quality early childhood education.",
+    "address": "1290 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0207",
+    "email": "enrollment@kidslearningacademy.com",
+    "website": "https://kidslearningacademy.com",
+    "hours": {
+      "monday": "06:30-18:30",
+      "tuesday": "06:30-18:30",
+      "wednesday": "06:30-18:30",
+      "thursday": "06:30-18:30",
+      "friday": "06:30-18:30",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "image": "images/businesses/learning-academy.jpg",
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "Sterling Pizza & Grill",
+    "category": "Food & Beverage",
+    "description": "Family restaurant serving pizza, burgers, salads, and more.",
+    "address": "1301 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0208",
+    "email": "orders@sterlingpizza.com",
+    "website": "https://sterlingpizza.com",
+    "hours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "image": "images/businesses/pizza-grill.jpg",
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Ranch Auto Service",
+    "category": "Automotive",
+    "description": "Auto repair and maintenance services for all makes and models.",
+    "address": "1312 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0209",
+    "email": "service@ranchauto.com",
+    "website": "https://ranchauto.com",
+    "hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-15:00",
+      "sunday": "Closed"
+    },
+    "image": "images/businesses/auto-service.jpg",
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Sterling Yoga Studio",
+    "category": "Fitness",
+    "description": "Yoga and wellness studio offering classes for all skill levels.",
+    "address": "1323 Ranch Pkwy, Sterling Ranch, CO 80135",
+    "phone": "303-555-0210",
+    "email": "hello@sterlingyoga.com",
+    "website": "https://sterlingyoga.com",
+    "hours": {
+      "monday": "06:00-20:00",
+      "tuesday": "06:00-20:00",
+      "wednesday": "06:00-20:00",
+      "thursday": "06:00-20:00",
+      "friday": "06:00-19:00",
+      "saturday": "08:00-18:00",
+      "sunday": "08:00-18:00"
+    },
+    "image": "images/businesses/yoga-studio.jpg",
+    "rating": 4.9,
+    "featured": true
+  }
+]
