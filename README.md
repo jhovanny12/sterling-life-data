@@ -18,9 +18,9 @@ This repository contains the following data files:
 All JSON files can be accessed directly via raw GitHub URLs:
 
 ```
-https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/events.json
-https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/food-trucks.json
-https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/businesses.json
+https://raw.githubusercontent.com/<ghuser>/sterling-life-data/main/events.json
+https://raw.githubusercontent.com/<ghuser>/sterling-life-data/main/food-trucks.json
+https://raw.githubusercontent.com/<ghuser>/sterling-life-data/main/businesses.json
 ```
 
 ### Using in Your Application
@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/businesses.
 #### JavaScript/Node.js
 ```javascript
 // Fetch events data
-fetch('https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/events.json')
+fetch('https://raw.githubusercontent.com/<ghuser>/sterling-life-data/main/events.json')
   .then(response => response.json())
   .then(data => console.log(data));
 ```
@@ -38,13 +38,13 @@ fetch('https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/even
 import requests
 
 # Fetch food trucks data
-response = requests.get('https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/food-trucks.json')
+response = requests.get('https://raw.githubusercontent.com/<ghuser>/sterling-life-data/main/food-trucks.json')
 data = response.json()
 ```
 
 #### Swift (iOS)
 ```swift
-let url = URL(string: "https://raw.githubusercontent.com/jhovanny12/sterling-life-data/main/businesses.json")!
+let url = URL(string: "https://raw.githubusercontent.com/<ghuser>/sterling-life-data/main/businesses.json")!
 URLSession.shared.dataTask(with: url) { data, response, error in
     // Handle data
 }.resume()
@@ -110,7 +110,7 @@ To update the data:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jhovanny12/sterling-life-data.git
+   git clone https://github.com/<ghuser>/sterling-life-data.git
    cd sterling-life-data
    ```
 
@@ -142,7 +142,7 @@ To enable GitHub Pages:
 3. Select source branch (main)
 4. Save
 
-The site will be available at: `https://jhovanny12.github.io/sterling-life-data/`
+The site will be available at: `https://<ghuser>.github.io/sterling-life-data/`
 
 ## 🛠️ Development
 
@@ -154,7 +154,7 @@ The site will be available at: `https://jhovanny12.github.io/sterling-life-data/
 ### Local Setup
 ```bash
 # Clone the repository
-git clone https://github.com/jhovanny12/sterling-life-data.git
+git clone https://github.com/<ghuser>/sterling-life-data.git
 
 # Navigate to directory
 cd sterling-life-data
